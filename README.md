@@ -19,11 +19,15 @@ El objetivo de este proyecto es explorar las capacidades de SP-GPT2 en la genera
 3. **Elección del Tokenizador:**
    - En la sección 5, elige el tokenizador que prefieras. Se recomienda sólo la ejecución de la sección 5.2 para utilizar el tokenizador pre-entrenado. En caso de optar por Tiktoken, sólo ejecuta la sección 5.1.
 
-4. **Entrenamiento y Evaluación:**
-   - Ejecuta la sección 6, que contiene funciones relacionadas con el entrenamiento, la evaluación del modelo, y el score de creatividad.
+4. **Funciones de Entrenamiento y Evaluación:**
+   - Ejecuta la sección 6, que contiene la creación de funciones relacionadas con el entrenamiento, la evaluación del modelo, y el score de creatividad.
 
-5. **Selección del Modelo:**
-   - Por último, elige qué modelo deseas entrenar. Ejecuta la sección 7.A si prefieres entrenar el modelo SP-GPT2 sin preentrenar. Si optas por entrenar el modelo SP-GPT2 pre-entrenado (se recomienda esta opción), ejecuta la sección 7.B. Si se desea examinar sólo el modelo GPT2 clásico pre-entrenado, ejecutar la sección 7.C.
+4. **Selección y Entrenamiento del Modelo:**
+   - Para elegir el modelo que deseas entrenar, ejecuta la sección correspondiente:
+      - **Opción A:** Para entrenar un modelo SP-GPT2 pequeño desde cero (sin pre-entrenamiento), ejecuta la sección 7.A.
+      - **Opción B:** Si prefieres realizar fine-tuning en el modelo SP-(GPT2 pre-entrenado para español), disponible en Hugging Face [aquí](https://huggingface.co/DeepESP/gpt2-spanish), ejecuta la sección 7.B (se recomienda esta opción).
+      - **Opción C:** Para examinar únicamente el modelo GPT2 clásico pre-entrenado, ejecuta la sección 7.C.
+
 
 6. **Generación de Poemas:**
    - Para modificar los parámetros de generación de poemas, consulta las subsecciones "Generación de Poemas" dentro de cada sección 7.
