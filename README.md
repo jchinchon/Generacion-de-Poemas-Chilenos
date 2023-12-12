@@ -28,6 +28,7 @@ El objetivo de este proyecto es explorar las capacidades de SP-GPT2 en la genera
       - **Opción B:** Si prefieres realizar fine-tuning en el modelo SP-(GPT2 pre-entrenado para español), disponible en Hugging Face [aquí](https://huggingface.co/DeepESP/gpt2-spanish), ejecuta la sección 7.B (se recomienda esta opción).
       - **Opción C:** Para examinar únicamente el modelo GPT2 clásico pre-entrenado, ejecuta la sección 7.C.
 
+**Nota:** El entrenamiento toma entre 30-45 minutos aproximadamente en Colab dependiendo de la selección.
 
 6. **Generación de Poemas:**
    - Para modificar los parámetros de generación de poemas, consulta las subsecciones "Generación de Poemas" dentro de cada sección 7.
